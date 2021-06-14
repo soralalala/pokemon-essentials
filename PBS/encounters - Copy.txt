@@ -1,23 +1,23 @@
-# See the documentation on the wiki to learn how to edit this file.
+﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [002] # Lappet Town
 Water,2
     60,TENTACOOL,14,19
-    30,MANTYKE,14,16
+    30,MANTYKE,15,16
     10,REMORAID,14,16
 OldRod
     100,MAGIKARP,16,19
 GoodRod
     60,BARBOACH,17,18
-    20,KRABBY,14,16
+    20,KRABBY,15,16
     20,SHELLDER,16,19
 SuperRod
     40,CHINCHOU,17,19
     40,QWILFISH,16,19
-    14,CORSOLA,14,18
-    4,STARYU,14,17
+    15,CORSOLA,15,18
+    5,STARYU,15,17
 #-------------------------------
-[004] # Route 1
+[005] # Route 1
 Land,21
     40,PIDGEY,11,14
     40,RATTATA,11,14
@@ -31,50 +31,50 @@ LandNight,21
     20,SPINARAK,8,12
     9,HOOTHOOT,10,14
     1,HOOTHOOT,14
-    1,RATTATA,14
+    1,RATTATA,15
 #-------------------------------
-[004,1] # Route 1
+[005,1] # Route 1
 Land,21
-    40,PIDGEY,14,18
+    40,PIDGEY,15,18
     40,RATTATA,14,18
     10,SENTRET,13,17
-    4,PIDGEY,14,16
-    4,RATTATA,13,16
+    5,PIDGEY,14,16
+    5,RATTATA,13,16
 LandNight,21
     40,RATTATA,14,18
     30,HOOTHOOT,14,17
     20,SPINARAK,12,16
-    10,CLEFAIRY,11,14
+    10,CLEFAIRY,11,15
 #-------------------------------
 [021] # Route 2
 Land,21
-    40,RATTATA,12,14
-    30,POOCHYENA,11,14
+    50,RATTATA,12,15
+    30,POOCHYENA,11,15
     10,SHINX,10,12
     10,SHINX,10,11
 Water,2
     60,MAGIKARP,7,10
     30,GOLDEEN,11,14
-    10,STARYU,12,14
+    10,STARYU,12,15
 OldRod
     70,MAGIKARP,7,10
-    30,MAGIKARP,9,14
+    30,MAGIKARP,9,15
 GoodRod
     60,GOLDEEN,12,14
-    20,FINNEON,12,14
+    20,FINNEON,12,15
     20,MAGIKARP,12,17
 SuperRod
-    40,FINNEON,12,14
+    40,FINNEON,12,15
     40,GOLDEEN,12,14
-    14,STARYU,12,14
-    4,STARYU,14,17
+    15,STARYU,12,15
+    5,STARYU,14,17
 HeadbuttLow
-    40,PINECO,11,13
+    50,PINECO,11,13
     30,LEDYBA,6,8
     19,SPINARAK,9,12
     1,MUNCHLAX,11,14
 HeadbuttHigh
-    40,PINECO,11,13
+    50,PINECO,11,13
     30,WURMPLE,6,8
     20,SPINARAK,9,12
 #-------------------------------
@@ -83,22 +83,22 @@ Land,21
     20,CATERPIE,10
     20,SUNKERN,12
     20,WEEDLE,10
-    14,PIDGEY,10,14
-    14,PIDGEY,12,14
-    4,KAKUNA,10
-    4,METAPOD,10
+    15,PIDGEY,10,14
+    15,PIDGEY,12,14
+    5,KAKUNA,10
+    5,METAPOD,10
 LandNight,21
     30,HOOTHOOT,10,14
-    30,SPINARAK,10,14
+    30,SPINARAK,10,15
     20,PINECO,9,13
-    10,DROWZEE,9,14
+    10,DROWZEE,9,15
     10,NATU,12,14
 LandMorning,21
-    24,CATERPIE,10,12
-    24,WEEDLE,10,12
+    25,CATERPIE,10,12
+    25,WEEDLE,10,12
     20,PIDGEY,10,14
-    14,KAKUNA,10
-    14,METAPOD,10
+    15,KAKUNA,10
+    15,METAPOD,10
 BugContest,21
     20,CATERPIE,7,18
     20,WEEDLE,7,18
@@ -106,99 +106,105 @@ BugContest,21
     10,METAPOD,9,18
     10,PARAS,10,17
     10,VENONAT,10,16
-    4,BEEDRILL,12,14
-    4,BUTTERFREE,12,14
-    4,PINSIR,13,14
-    4,SCYTHER,13,14
+    5,BEEDRILL,12,15
+    5,BUTTERFREE,12,15
+    5,PINSIR,13,14
+    5,SCYTHER,13,14
 #-------------------------------
 [031] # Route 3
 Land,21
-    30,NIDORANfE,12,14
-    30,NIDORANmA,12,14
+    30,NIDORANfE,12,15
+    30,NIDORANmA,12,15
     20,PIKACHU,14,17
-    10,EEVEE,14
-    10,PONYTA,13,14
+    10,EEVEE,15
+    10,PONYTA,13,15
 Water,2
     60,SURSKIT,13,14
-    34,LOTAD,14
-    4,LOTAD,14
+    35,LOTAD,14
+    5,LOTAD,15
 OldRod
     70,MAGIKARP,6,11
     30,MAGIKARP,10,17
 GoodRod
-    60,POLIWAG,12,14
+    60,POLIWAG,12,15
     20,PSYDUCK,11,14
     20,WOOPER,13,17
 SuperRod
     40,CHINCHOU,11,12
     40,REMORAID,12,14
     20,LUVDISC,10,16
-RockSmash,40
+RockSmash,50
     60,NOSEPASS,13,14
-    40,GEODUDE,12,14
+    40,GEODUDE,12,15
 HeadbuttLow
     30,PINECO,14,17
-    24,COMBEE,14,17
+    25,COMBEE,15,17
     20,PINECO,14,16
     10,HERACROSS,16,18
     9,HERACROSS,16,17
-    4,COMBEE,14,16
+    5,COMBEE,15,16
     1,MUNCHLAX,13,18
 HeadbuttHigh
-    40,SEEDOT,14,17
+    50,SEEDOT,14,17
     30,SHROOMISH,14,17
-    20,BURMY,12,14
+    20,BURMY,12,15
 #-------------------------------
 [034] # Ice Cave
-Cave,4
+Cave,5
     40,SWINUB,16,18
     20,SNEASEL,14,16
-    20,SNORUNT,12,14
+    20,SNORUNT,12,15
     10,SMOOCHUM,11,14
     10,SNOVER,14
 #-------------------------------
 [039] # Route 4
 Land,21
-    40,SHELLOS_1,12,14
-    40,GRIMER,13,14
+    50,SHELLOS_1,12,15
+    40,GRIMER,13,15
     10,MURKROW,12,14
+#-------------------------------
+[041] # Route 5
+Land,21
+    50,GRIMER,13,15
+    40,SPEAROW,13,16
+    10,SLUGMA,13,14
 #-------------------------------
 [044] # Route 6
 Land,21
-    40,SHELLOS_1,12,14
-    40,GRIMER,13,14
+    50,SHELLOS_1,12,15
+    40,GRIMER,13,15
     10,MURKROW,12,14
 #-------------------------------
 [047] # Route 7
 Land,21
-    40,SHELLOS,12,14
+    50,SHELLOS,12,15
     30,BIDOOF,14,17
     10,MURKROW,12,14
     10,WURMPLE,9,12
-RockSmash,40
+RockSmash,50
     90,NOSEPASS,13,14
-    10,GEODUDE,12,14
+    10,GEODUDE,12,15
 #-------------------------------
 [049] # Rock Cave
-Cave,4
+Cave,5
     20,MAGNETON,14,16
     20,MAGNETON,14,17
-    20,NOSEPASS,14,14
+    20,NOSEPASS,14,15
     20,NOSEPASS,13,14
-    10,GEODUDE,13,14
+    10,GEODUDE,13,15
     10,MAWILE,14,16
 #-------------------------------
-[040] # Rock Cave
-Cave,4
+[050] # Rock Cave
+Cave,5
     20,MAGNETON,14,16
     20,MAGNETON,14,17
-    20,NOSEPASS,14,14
+    20,NOSEPASS,14,15
     20,NOSEPASS,13,14
     10,BURMY,14,16
-    10,GEODUDE,13,14
+    10,GEODUDE,13,15
 #-------------------------------
-[041] # Dungeon
-Cave,4
+[051] # Dungeon
+Cave,5
     20,CHINGLING,1
     20,CLEFFA,1
     20,IGGLYBUFF,1
@@ -208,32 +214,32 @@ Cave,4
 #-------------------------------
 [066] # Safari Zone
 Land,21
-    20,ABRA,12,14
-    20,DODUO,13,14
-    20,NIDORANfE,14,16
-    20,NIDORANmA,14,16
+    20,ABRA,12,15
+    20,DODUO,13,15
+    20,NIDORANfE,15,16
+    20,NIDORANmA,15,16
     10,HOPPIP,13,17
     10,TANGELA,14,16
 #-------------------------------
 [068] # Safari Zone
 Land,21
-    20,EXEGGCUTE,14,18
+    20,EXEGGCUTE,15,18
     20,RHYHORN,16,18
     10,AIPOM,14,17
     10,GIRAFARIG,16,17
-    10,VENONAT,14,17
-    10,VENONAT,14,18
-    4,HERACROSS,14,17
-    4,TAUROS,14,16
+    10,VENONAT,15,17
+    10,VENONAT,15,18
+    5,HERACROSS,15,17
+    5,TAUROS,15,16
     4,PINSIR,16
     4,SCYTHER,16
     1,CHANSEY,17
     1,KANGASKHAN,19
 Water,2
     60,PSYDUCK,16,18
-    30,MARILL,14,18
-    4,BUIZEL,14,17
-    4,SLOWPOKE,14,16
+    30,MARILL,15,18
+    5,BUIZEL,15,17
+    5,SLOWPOKE,14,16
 OldRod
     70,MAGIKARP,17,21
     30,MAGIKARP,17,20
@@ -244,37 +250,37 @@ GoodRod
 SuperRod
     40,GOLDEEN,16,18
     40,REMORAID,17,19
-    14,CARVANHA,16,17
-    4,FINNEON,14,18
+    15,CARVANHA,16,17
+    4,FINNEON,15,18
     1,DRATINI,17
 #-------------------------------
 [069] # Route 8
 Land,21
     20,MAREEP,16,18
-    20,ODDISH,14,17
+    20,ODDISH,15,17
     13,BONSLY,14,16
-    10,DITTO,14,17
+    10,DITTO,15,17
     10,DITTO,16,18
-    10,LOTAD,14,18
-    10,LOTAD,14,17
-    4,BONSLY,14,17
-    1,BONSLY,14,16
-    1,BONSLY,14
+    10,LOTAD,15,18
+    10,LOTAD,15,17
+    5,BONSLY,14,17
+    1,BONSLY,15,16
+    1,BONSLY,15
 Water,2
     60,TENTACOOL,14,19
-    30,MANTYKE,14,16
+    30,MANTYKE,15,16
     10,REMORAID,14,16
 OldRod
     100,MAGIKARP,16,19
 GoodRod
     60,BARBOACH,17,18
-    20,KRABBY,14,16
+    20,KRABBY,15,16
     20,SHELLDER,16,19
 SuperRod
     40,CHINCHOU,17,19
     40,QWILFISH,16,19
-    14,CORSOLA,14,18
-    4,STARYU,14,17
+    15,CORSOLA,15,18
+    5,STARYU,15,17
 #-------------------------------
 [070] # Underwater
 Land,21
@@ -286,7 +292,7 @@ Land,21
     10,RELICANTH,16,19
     10,SHELLDER,18,19
 #-------------------------------
-[074] # Tiall Region
+[075] # Tiall Region
 Land,21
     20,GEODUDE_1,11,14
     20,RATTATA_1,11,14
@@ -309,7 +315,7 @@ BigLand,21
     4,EXEGGCUTE,17,21
     4,FERROSEED,18,20
     4,FOMANTIS,18,20
-    4,FOONGUS,16,19
+    4,FOONGUYS,16,19
     4,LILEEP,18,19
     4,LOTAD,17,21
     4,MORELULL,18,20
@@ -592,182 +598,23 @@ SmallLand,21
 #-------------------------------
 [103] # EncounterPoison
 MediumLand,21
-    4,KOFFING,17,21
-    4,MAREANIE,17,21
-    4,NIDORANmA,17,21
-    4,NIDORANfE,17,21
-    4,SALANDIT,17,21
-    4,SKORUPI,17,21
-    4,SKRELP,17,21
-    4,STUNKY,17,21
-    4,TENTACOOL,17,21
-    4,TRUBBISH,17,21
-    4,VENIPEDE,17,21
-    4,ZUBAT,17,21
-    4,EKANS,17,21
-    4,VENONAT,17,21
-    4,GRIMER,17,21
-    4,GULPIN,17,21
-    4,ROSELIA,17,21
-    4,WHIRLIPEDE,17,21
-    4,QWILFISH,17,21
-    4,SEVIPER,17,21
-#-------------------------------
-[104] # StarterPond
-BigLand,21
-    4,BULBASAUR,17,21
-    4,CHARMANDER,17,21
-    4,SQUIRTLE,17,21
-    4,CHIKORITA,17,21
-    4,CYNDAQUIL,17,21
-    4,TOTODILE,17,21
-    4,TREECKO,17,21
-    4,TORCHIC,17,21
-    4,MUDKIP,17,21
-    4,TURTWIG,17,21
-    4,CHIMCHAR,17,21
-    4,PIPLUP,17,21
-    4,SNIVY,17,21
-    4,TEPIG,17,21
-    4,OSHAWOTT,17,21
-    4,CHESPIN,17,21
-    4,FENNEKIN,17,21
-    4,FROAKIE,17,21
-    4,ROWLET,17,21
-    4,LITTEN,17,21
-    4,POPPLIO,17,21
-    4,GROOKEY,17,21
-    4,SCORBUNNY,17,21
-    4,SOBBLE,17,21
-    4,PIKACHU,17,21
-#-------------------------------
-[99] # Pond near the town
-SmallLand,21
-    10,SAWSBUCK,17,21
-    10,CUTIEFLY,17,21
-    10,COMFEY,17,21
-    10,AUDINO,17,21
-    10,CARBINK,17,21
-    10,MARACTUS,17,21
-    10,DUNSPARCE,17,21
-    10,STUNFISK,17,21
-    10,SWIRLIX,17,21
-    10,GOSSIFLEUR,17,21
-#-------------------------------
-[83] # Cassie's Farm Road
-Land,21
-    1,HERACROSS,23,27
-    1,PINSIR,23,27
-    1,SCYTHER,23,27
-    1,SHUCKLE,23,27
-    4,SKIDDO,23,27
-    4,MOTHIM,23,27
-    4,PARASECT,23,27
-    4,TREVENANT,23,27
-    4,SUDOWOODO,23,27
-    4,SAWSBUCK,23,27
-    4,STANLER,23,27
-    4,COMBEE,23,27
-    4,WORMADAM,23,27
-    5,NOCTOWL,23,27
-    5,TROPIUS,23,27
-    5,KAKUNA,23,27
-    5,METAPOD,23,27
-    5,SILCOON,23,27
-    5,CASCOON,23,27
-    5,SUNFLORA,23,27
-    5,SWADLOON,23,27
-    5,SKIPLOOM,23,27
-    5,CHARJABUG,23,27
-    5,MAREEP,23,27
-    5,FLOETTE,23,27
-#-------------------------------
-[84] # View of the Lake
-Land,21
-    5,WINGULL,29,33
-    5,TRUMBEAK,29,33
-    5,TRANQUILL,29,33
-    5,MARILL,29,33
-    5,NUZLEAF,29,33
-    5,PALPITOAD,29,33
-    5,SPEWPA,29,33
-    5,ORICORIO,29,33
-    5,YANMA,29,33
-    5,STARAVIA,29,33
-    5,LOMBRE,29,33
-    5,TRUMBEAK,29,33
-    5,PSYDUCK,29,33
-    5,CORSOLA,29,33
-    5,ARROKUDA,29,33
-    5,LUXIO,29,33
-    5,CRAMORANT,29,33
-    5,GYARADOS,29,33
-    5,QUAGSIRE,29,33
-    1,VAPOREON,29,33
-    1,SLIGGOO,29,33
-    1,LEAFEON,29,33
-    1,POLITOED,29,33
-    1,CRAWDAUNT,29,33
-#-------------------------------
-[86] # Roadway to Four Villages
-Land,21
-    10,HAUNTER,35,39
-    10,GOTHORITA,35,39
-    10,HATTREM,35,39
-    10,DRIFLOON,35,39
-    10,DUOSION,35,39
-    10,MORGREM,35,39
-    5,LAMPENT,35,39
-    5,SABLEYE,35,39
-    5,SOLROCK,35,39
-    5,LUNAROCK,35,39
-    5,GOURGEIST,35,39
-    5,XATU,35,39
-    5,MIMIKYU,35,39
-    1,FROSLASS,35,39
-    1,ESPEON,35,39
-    1,UMBREON,35,39
-    1,GOLURK,35,39
-    1,SPIRITOMB,35,39 
-#-------------------------------
-[89] # Feuille morte
-SmallLand,21
-    10,GURDURR,35,39
-    10,RHYDON,35,39
-    10,LAIRON,35,39
-    10,CARKOL,35,39
-    10,BOLDORE,35,39
-    10,TORKOAL,35,39
-    5,STONJOURNER,35,39
-    5,MAROWAK,35,39
-    5,LYCANROC,35,39
-    5,HEATMOR,35,39
-    5,MAGMAR,35,39
-    5,VULPIX,35,39
-    5,DUGTRIO,35,39
-    1,FLAREON,35,39
-    1,SANDACONDA,35,39
-    1,PALOSSAND,35,39
-    1,SALAZZLE,35,39
-    1,VIBRAVA,35,39 
-#-------------------------------
-[91] # Unidentified Mansion
-SmallLand,21
-    10,SCYTHER,35,39
-    10,CUTIEFLY,35,39
-    10,COMFEY,35,39
-    10,AUDINO,35,39
-    10,CARBINK,35,39
-    10,MARACTUS,35,39
-    5,DUNSPARCE,35,39
-    5,DUNSPARCE,35,39
-    5,STUNFISK,35,39
-    5,STUNFISK,35,39
-    5,STUNFISK,35,39
-    5,STUNFISK,35,39
-    5,STUNFISK,35,39
-    1,STUNFISK,35,39
-    1,STUNFISK,35,39
-    1,STUNFISK,35,39
-    1,STUNFISK,35,39
-    1,STUNFISK,35,39 
+    5,KOFFING,17,21
+    5,MAREANIE,17,21
+    5,NIDORANmA,17,21
+    5,NIDORANfE,17,21
+    5,SALANDIT,17,21
+    5,SKORUPI,17,21
+    5,SKRELP,17,21
+    5,STUNKY,17,21
+    5,TENTACOOL,17,21
+    5,TRUBBISH,17,21
+    5,VENIPEDE,17,21
+    5,ZUBAT,17,21
+    5,EKANS,17,21
+    5,VENONAT,17,21
+    5,GRIMER,17,21
+    5,GULPIN,17,21
+    5,ROSELIA,17,21
+    5,WHIRLIPEDE,17,21
+    5,QWILFISH,17,21
+    5,SEVIPER,17,21
