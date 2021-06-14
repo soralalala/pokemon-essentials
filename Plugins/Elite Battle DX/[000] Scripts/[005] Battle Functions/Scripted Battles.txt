@@ -1,0 +1,7 @@
+Line 203
+    if @battle.decision == 1
+     @sprites["opponent"].setTrainerBitmap2(trainerfile)
+    else
+     @sprites["opponent"].setTrainerBitmap(trainerfile) if !trainerfile.nil?
+    end
+    #

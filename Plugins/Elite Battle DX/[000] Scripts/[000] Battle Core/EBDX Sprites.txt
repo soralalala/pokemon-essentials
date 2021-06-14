@@ -1,0 +1,49 @@
+Line 742
+#-----------------------------------------------------------------------------
+  # function to set the second Trainer bitmap
+  #-----------------------------------------------------------------------------
+  def setTrainerBitmap2(file = nil)
+    # gets trainer ID
+    file = GameData::TrainerType.front_sprite_filename(@trainer.trainer_type) if file.nil? && !@trainer.nil?
+    ofile = file
+    trainerid = file.nil? ? nil : EliteBattle.id_from_trainer_file(file) if !file.nil?
+    # gets additional scale (if applicable)
+    s = EliteBattle.get_trainer_data(trainerid, :SCALE, @trainer)
+    scale = (!s.nil? && s.is_a?(Numeric)) ? s : EliteBattle::TRAINER_SPRITE_SCALE
+    sp = EliteBattle.get_trainer_data(trainerid, :SPRITESPEED, @trainer)
+    speed = (!sp.nil? && sp.is_a?(Numeric)) ? sp : 2
+    file += "_0" 
+    #file -= "_0" if file.nil?
+    # loads bitmap
+    if !pbResolveBitmap(file)
+      tfile = @trainer.nil? ? nil : "Graphics/Trainers/#{@trainer.trainer_type}"
+      EliteBattle.log.warn("Could not find the Trainer sprite: #{file.nil? ? tfile : file}")
+      file = "Graphics/EBDX/Battlers/000"
+    end
+    file = ofile if file == "Graphics/EBDX/Battlers/000"
+
+    if !pbResolveBitmap(file)
+      tfile = @trainer.nil? ? nil : "Graphics/Trainers/#{@trainer.trainer_type}"
+      EliteBattle.log.warn("Could not find the Trainer sprite: #{file.nil? ? tfile : file}")
+      file = "Graphics/EBDX/Battlers/000"
+    end
+
+    #file += "_0"
+    @bitmap = BitmapEBDX.new(file, scale, speed)
+    # assigns bitmap
+    @sprite.bitmap = @bitmap.bitmap.clone
+    @shadow.bitmap = @bitmap.bitmap.clone
+    @sprite.ox = @bitmap.width/2
+    @sprite.oy = @bitmap.height - 16
+    # allows for additional X or Y positioning through script
+    x = EliteBattle.get_trainer_data(trainerid, :X, @trainer)
+    y = EliteBattle.get_trainer_data(trainerid, :Y, @trainer)
+    a = EliteBattle.get_trainer_data(trainerid, :ALTITUDE, @trainer)
+    @sprite.ox -= x if !x.nil? && x.is_a?(Numeric)
+    @sprite.oy -= y if !y.nil? && y.is_a?(Numeric)
+    @sprite.oy += a if !a.nil? && a.is_a?(Numeric)
+    # formats the underlying shadow
+    self.formatShadow
+  end
+  #-----------------------------------------------------------------------------
+end

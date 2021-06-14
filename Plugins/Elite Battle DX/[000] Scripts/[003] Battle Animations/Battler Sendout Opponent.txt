@@ -1,0 +1,5 @@
+line 62
+#            @sprites["trainer_#{m}"].x += 3
+#            @sprites["trainer_#{m}"].y -= 2
+#            @sprites["trainer_#{m}"].zoom_x -= 0.02
+#            @sprites["trainer_#{m}"].zoom_y -= 0.02
