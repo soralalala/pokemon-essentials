@@ -298,7 +298,7 @@ Land,21
     10,VULPIX_1,11,14
 #-------------------------------
 [043] # EncounterGrass
-BigLand,21
+Land,21
     4,BELLSPROUT,17,21
     4,BOUNSWEET,18,20
     4,BUDEW,18,20
@@ -326,7 +326,7 @@ BigLand,21
     4,SUNKERN,18,20
 #-------------------------------
 [048] # EncounterFireFlying
-BigLand,21
+Land,21
     4,DARUMAKA,17,21
     4,GROWLITHE,17,21
     4,HOUNDOUR,17,21
@@ -354,7 +354,7 @@ BigLand,21
     4,PIDOVE,17,21
 #-------------------------------
 [076] # EncounterFairyGround
-BigLand,21
+Land,21
     4,AZURILL,17,21
     4,CLEFFA,17,21
     4,FLABEBE,17,21
@@ -382,7 +382,7 @@ BigLand,21
     4,BARBOACH,17,21
 #-------------------------------
 [077] # EncounterfightingDragon
-BigLand,21
+Land,21
     4,CRABRAWLER,17,21
     4,MACHOP,17,21
     4,MAKUHITA,17,21
@@ -410,7 +410,7 @@ BigLand,21
     4,HAWLUCHA,17,21
 #-------------------------------
 [078] # EncounterBug
-BigLand,21
+Land,21
     4,ANORITH,17,21
     4,BURMY,18,20
     4,CATERPIE,18,20
@@ -438,7 +438,7 @@ BigLand,21
     4,WEEDLE,18,20
 #-------------------------------
 [079] # EncounterNormal
-BigLand,21
+Land,21
     4,BIDOOF,17,21
     4,BUNEARY,17,21
     4,BUNNELBY,17,21
@@ -466,7 +466,7 @@ BigLand,21
     4,CHATOT,17,21
 #-------------------------------
 [080] # EncounterPsychicGhost
-BigLand,21
+Land,21
     4,ABRA,17,21
     4,CHINGLING,17,21
     4,COSMOG,17,21
@@ -494,7 +494,7 @@ BigLand,21
     4,SINISTEA,17,21
 #-------------------------------
 [081] # EncounterWater
-BigLand,21
+Land,21
     4,ARROKUDA,17,21
     4,BUIZEL,17,21
     4,CHINCHOU,17,21
@@ -522,7 +522,7 @@ BigLand,21
     4,WAILMER,17,21
 #-------------------------------
 [082] # EncounterSteelElect
-BigLand,21
+Land,21
     4,ARON,17,21
     4,BELDUM,17,21
     4,BRONZOR,17,21
@@ -550,7 +550,7 @@ BigLand,21
     4,CHARJABUG,17,21
 #-------------------------------
 [101] # EncounterIceRock
-BigLand,21
+Land,21
     4,AMAURA,17,21
     4,BERGMITE,17,21
     4,CUBCHOO,17,21
@@ -578,7 +578,7 @@ BigLand,21
     4,TIRTOUGA,17,21
 #-------------------------------
 [102] # EncounterDark
-SmallLand,21
+Land,21
     10,CARVANHA,17,21
     10,INKAY,17,21
     10,POOCHYENA,17,21
@@ -591,7 +591,7 @@ SmallLand,21
     10,IMPIDIMP,17,21
 #-------------------------------
 [103] # EncounterPoison
-MediumLand,21
+Land,21
     4,KOFFING,17,21
     4,MAREANIE,17,21
     4,NIDORANmA,17,21
@@ -614,7 +614,7 @@ MediumLand,21
     4,SEVIPER,17,21
 #-------------------------------
 [104] # StarterPond
-BigLand,21
+Land,21
     4,BULBASAUR,17,21
     4,CHARMANDER,17,21
     4,SQUIRTLE,17,21
@@ -642,7 +642,7 @@ BigLand,21
     4,PIKACHU,17,21
 #-------------------------------
 [99] # Pond near the town
-SmallLand,21
+Land,21
     10,SAWSBUCK,17,21
     10,CUTIEFLY,17,21
     10,COMFEY,17,21
@@ -666,7 +666,7 @@ Land,21
     4,TREVENANT,23,27
     4,SUDOWOODO,23,27
     4,SAWSBUCK,23,27
-    4,STANLER,23,27
+    4,STANTLER,23,27
     4,COMBEE,23,27
     4,WORMADAM,23,27
     5,NOCTOWL,23,27
@@ -720,7 +720,7 @@ Land,21
     5,LAMPENT,35,39
     5,SABLEYE,35,39
     5,SOLROCK,35,39
-    5,LUNAROCK,35,39
+    5,LUNATONE,35,39
     5,GOURGEIST,35,39
     5,XATU,35,39
     5,MIMIKYU,35,39
@@ -731,7 +731,7 @@ Land,21
     1,SPIRITOMB,35,39 
 #-------------------------------
 [89] # Feuille morte
-SmallLand,21
+Land,21
     10,GURDURR,35,39
     10,RHYDON,35,39
     10,LAIRON,35,39
@@ -752,7 +752,7 @@ SmallLand,21
     1,VIBRAVA,35,39 
 #-------------------------------
 [91] # Unidentified Mansion
-SmallLand,21
+Land,21
     10,SCYTHER,35,39
     10,CUTIEFLY,35,39
     10,COMFEY,35,39
