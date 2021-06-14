@@ -14,7 +14,7 @@ module Settings
   # Note that this isn't perfect. Essentials doesn't accurately replicate every
   # single generation's mechanics. It's considered to be good enough. Only
   # generations 5 and later are reasonably supported.
-  MECHANICS_GENERATION = 7
+  MECHANICS_GENERATION = 8
 
   #=============================================================================
 
@@ -323,6 +323,13 @@ module Settings
 
   #=============================================================================
 
+  # The scale to zoom the front sprite of a Pokemon. (1 for no scaling)
+  FRONT_BATTLER_SPRITE_SCALE    = 2
+  # The scale to zoom the back sprite of a Pokemon. (1 for no scaling)
+  BACK_BATTLER_SPRITE_SCALE     = 3
+
+  #=============================================================================
+
   # An array of available languages in the game, and their corresponding message
   # file in the Data folder. Edit only if you have 2 or more languages to choose
   # from.
@@ -393,6 +400,6 @@ end
 
 # DO NOT EDIT THESE!
 module Essentials
-  VERSION = "19.1.dev"
+  VERSION = "19.1"
   ERROR_TEXT = ""
 end

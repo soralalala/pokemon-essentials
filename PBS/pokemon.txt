@@ -28336,7 +28336,7 @@ BattlerEnemyX = 0
 BattlerEnemyY = 35
 BattlerShadowX = 0
 BattlerShadowSize = 2
-Evolutions = ALCREMIE,ItemAlcremie,
+Evolutions = ALCREMIE,Level,25
 #-------------------------------
 [869]
 Name = Alcremie
